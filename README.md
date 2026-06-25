@@ -76,7 +76,17 @@ python -m streamlit run app.py
 
 ## 📷 Dashboard
 
-(Add screenshots here)
+### Main Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Prediction Result
+
+![Prediction](screenshots/prediction.png)
+
+### Feature Importance
+
+![Feature Importance](screenshots/feature_importance.png)
 
 ---
 
