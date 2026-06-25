@@ -90,6 +90,20 @@ python -m streamlit run app.py
 
 ---
 
+## 🔄 Workflow
+
+1. Load the AI4I 2020 dataset
+2. Clean and preprocess the data
+3. Remove leakage columns
+4. Train a Random Forest classifier
+5. Save the trained model
+6. Deploy the model using Streamlit
+7. Predict machine health in real time
+
+## Notes
+
+During development, the failure subtype columns (TWF, HDF, PWF, OSF, RNF) were removed from the training data to avoid data leakage and ensure the model learns from operational parameters rather than outcome indicators.
+
 ## 👩‍💻 Author
 
 **Tirisha Biswas**
