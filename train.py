@@ -48,6 +48,10 @@ model.fit(X_train, y_train)
 # Predict
 y_pred = model.predict(X_test)
 
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, y_pred))
+
 # Accuracy
 accuracy = accuracy_score(y_test, y_pred)
 
